@@ -8,7 +8,7 @@ import SettingsPanel from './shared/SettingsPanel';
 import Footer from './shared/Footer';
 import { withTranslation } from "react-i18next";
 
-class App extends Component {
+class App_OLD extends Component {
   state = {}
   componentDidMount() {
     this.onRouteChanged();
@@ -73,4 +73,4 @@ class App extends Component {
 
 }
 
-export default withTranslation()(withRouter(App));
+export default withTranslation()(withRouter(App_OLD));

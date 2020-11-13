@@ -131,7 +131,21 @@ ol {
 	background: #ca1515;
 	content: "";
 }
-
+.cat1{
+	background-image: url('../img/categories/category.jpg');
+}
+.cat2{
+	background-image: url('../img/categories/category-2.jpg');
+}
+.cat3{
+	background-image: url('../img/categories/category-3.jpg');
+}
+.cat4{
+	background-image: url('../img/categories/category-4.jpg');
+}
+.cat5{
+	background-image: url('../img/categories/category-5.jpg');
+}
 .set-bg {
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -502,78 +516,6 @@ ol {
 }
 
 /*---------------------
-  Banner
------------------------*/
-
-.banner {
-	height: 500px;
-}
-
-.banner__text span {
-	font-size: 18px;
-	color: #ca1515;
-	text-transform: uppercase;
-}
-
-.banner__text h1 {
-	font-size: 80px;
-	color: #111111;
-	font-family: "Cookie", cursive;
-	margin-bottom: 15px;
-}
-
-.banner__text a {
-	font-size: 14px;
-	color: #111111;
-	text-transform: uppercase;
-	font-weight: 700;
-	position: relative;
-	padding: 0 0 3px;
-	display: inline-block;
-}
-
-.banner__text a:after {
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	height: 2px;
-	width: 100%;
-	background: #ca1515;
-	content: "";
-}
-
-.banner__slider {
-	text-align: center;
-	padding: 150px 0 0;
-}
-
-.banner__slider.owl-carousel .owl-dots {
-	position: absolute;
-	left: 0;
-	top: 430px;
-	width: 100%;
-	text-align: center;
-}
-
-
-
-.banner__slider.owl-carousel .owl-dots button {
-	height: 12px;
-	width: 12px;
-	background: #a1a1a1;
-	border-radius: 50%;
-	margin-right: 10px;
-}
-
-.banner__slider.owl-carousel .owl-dots button.active {
-	background: #ca1515;
-}
-
-.banner__slider.owl-carousel .owl-dots button:last-child {
-	margin-right: 0;
-}
-
-/*---------------------
   Trend
 -----------------------*/
 
@@ -784,7 +726,24 @@ ol {
 /*---------------------
   Instagram
 -----------------------*/
-
+.i1{
+	background-image: url(../img/instagram/insta-1.jpg);
+}
+.i2{
+	background-image: url(../img/instagram/insta-2.jpg);
+}
+.i3{
+	background-image: url(../img/instagram/insta-3.jpg);
+}
+.i4{
+	background-image: url(../img/instagram/insta-4.jpg);
+}
+.i5{
+	background-image: url(../img/instagram/insta-5.jpg);
+}
+.i6{
+	background-image: url(../img/instagram/insta-6.jpg);
+}
 .instagram__item {
 	height: 320px;
 	display: -webkit-box;
@@ -1107,6 +1066,31 @@ ol {
 .product {
 	padding-top: 60px;
 	padding-bottom: 50px;
+}
+.p1{
+	background-image: url(../img/product/p1.jpg)
+}
+
+.p2{
+	background-image: url(../img/product/product-2.jpg);
+}
+.p3{
+	background-image: url(../img/product/product-3.jpg);
+}
+.p4{
+	background-image: url(../img/product/product-4.jpg);
+}
+.p5{
+	background-image: url(../img/product/product-5.jpg);
+}
+.p6{
+	background-image: url(../img/product/product-6.jpg);
+}
+.p7{
+	background-image: url(../img/product/product-7.jpg);
+}
+.p8{
+	background-image: url(../img/product/product-8.jpg);
 }
 
 .filter__controls {
@@ -2066,6 +2050,81 @@ ol {
 	text-transform: uppercase;
 	margin-bottom: 35px;
 }
+
+
+/*---------------------
+  Banner
+-----------------------*/
+
+.banner {
+	height: 500px;
+	background-image: url(../img/banner/banner-1.jpg);
+}
+
+.banner__text span {
+	font-size: 18px;
+	color: #ca1515;
+	text-transform: uppercase;
+}
+
+.banner__text h1 {
+	font-size: 80px;
+	color: #111111;
+	font-family: "Cookie", cursive;
+	margin-bottom: 15px;
+}
+
+.banner__text a {
+	font-size: 14px;
+	color: #111111;
+	text-transform: uppercase;
+	font-weight: 700;
+	position: relative;
+	padding: 0 0 3px;
+	display: inline-block;
+}
+
+.banner__text a:after {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 2px;
+	width: 100%;
+	background: #ca1515;
+	content: "";
+}
+
+.banner__slider {
+	text-align: center;
+	padding: 150px 0 0;
+}
+
+.banner__slider.owl-carousel .owl-dots {
+	position: absolute;
+	left: 0;
+	top: 430px;
+	width: 100%;
+	text-align: center;
+}
+
+
+
+.banner__slider.owl-carousel .owl-dots button {
+	height: 12px;
+	width: 12px;
+	background: #a1a1a1;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.banner__slider.owl-carousel .owl-dots button.active {
+	background: #ca1515;
+}
+
+.banner__slider.owl-carousel .owl-dots button:last-child {
+	margin-right: 0;
+}
+
 
 /*---------------------
   Shop Cart
