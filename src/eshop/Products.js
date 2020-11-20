@@ -1,6 +1,9 @@
 import React from 'react'
 import './css/style.css'
 import p1 from './img/product/p1.jpg'
+import StarRatings from 'react-star-ratings';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import 'react-tabs/style/react-tabs.css';
 
 const Products =()=>{
     return(
@@ -14,14 +17,19 @@ const Products =()=>{
                 </div>
             </div>
             <div class="col-lg-8 col-md-8">
-                <ul class="filter__controls">
-                    <li class="active" data-filter="*">All</li>
-                    <li data-filter=".women">Women’s</li>
-                    <li data-filter=".men">Men’s</li>
-                    <li data-filter=".kid">Kid’s</li>
-                    <li data-filter=".accessories">Accessories</li>
-                    <li data-filter=".cosmetic">Cosmetics</li>
-                </ul>
+               
+
+                <Tabs>
+                        <TabList>
+                          <Tab>All</Tab>
+                          <Tab>Women's</Tab>
+                          <Tab>Men's</Tab>
+                          <Tab>Kid's</Tab>
+                          <Tab>Accessories</Tab>
+                          <Tab>Cosmetics</Tab>
+                        </TabList>
+
+                </Tabs>
             </div>
         </div>
         <div class="row property__gallery">
@@ -38,11 +46,14 @@ const Products =()=>{
                     <div class="product__item__text">
                         <h6><a href="#">Buttons tweed blazer</a></h6>
                         <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
+                        <StarRatings
+                                rating={4}
+                                starDimension={"13px"}
+                                starRatedColor="#e3c01c"
+                                // changeRating={this.changeRating}
+                                numberOfStars={5}
+                                name='rating'
+                                />
                         </div>
                         <div class="product__price">$ 59.0</div>
                     </div>

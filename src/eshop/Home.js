@@ -13,7 +13,6 @@ import Insta from './Instagram'
 const Home = () =>{
     return(
         <div>
-           
             <Navbar/>
             <Categories/>
             <Products/>
