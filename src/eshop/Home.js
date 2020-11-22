@@ -8,22 +8,24 @@ import Trend from './Trend'
 import Discount from './Dicount'
 import Footer from './Footer'
 import Insta from './Instagram'
+import GuestLayout from './comp/GuestLayout'
 
 
 const Home = () =>{
     return(
-        <div>
-            <Navbar/>
+        <GuestLayout>
+
+         
             <Categories/>
             <Products/>
             <Banner/>
             <Trend/>
             <Discount/>
             <Insta/>
-            <Footer/>
+          
             {/* <h1 style = {{textAlign:'center', height:"500px"}}>Under Construction!!!</h1> */}
 
-        </div>
+        </GuestLayout>
     )
 }
 export default Home;

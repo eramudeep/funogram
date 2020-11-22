@@ -1,11 +1,12 @@
 import React from 'react'
+import GuestLayout from './comp/GuestLayout';
 
 
 const ContactUs =() => {
     return(
-        <div> 
+        <GuestLayout> 
             <p>Contact Us here!!!!</p>
-        </div>
+        </GuestLayout>
     )
 }
 

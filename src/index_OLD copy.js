@@ -6,6 +6,11 @@ import App from '../src/eshop/App'
 import "./i18n";
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App/>, document.getElementById('root'));
+ReactDOM.render(
+  <BrowserRouter basename="/demo/star-admin-free/react/template/demo_1/preview">
+    {/* <App_OLD /> */}
+    <App/>
+  </BrowserRouter>
+, document.getElementById('root'));
 
 serviceWorker.unregister();
