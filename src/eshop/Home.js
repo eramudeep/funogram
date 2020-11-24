@@ -13,9 +13,9 @@ import GuestLayout from './comp/GuestLayout'
 
 const Home = () =>{
     return(
-        <GuestLayout>
+       
 
-         
+         <>
             <Categories/>
             <Products/>
             <Banner/>
@@ -24,8 +24,8 @@ const Home = () =>{
             <Insta/>
           
             {/* <h1 style = {{textAlign:'center', height:"500px"}}>Under Construction!!!</h1> */}
-
-        </GuestLayout>
+</>
+         
     )
 }
 export default Home;
