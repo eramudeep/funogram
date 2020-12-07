@@ -3205,6 +3205,16 @@ ol {
 	width: 100%;
 }
 
+
+.userForm{
+	margin-top: 50px;
+
+}
+
+.userLoginForm{
+	margin-top: 50px;
+	
+}
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
 
 @media only screen and (min-width: 1600px) and (max-width: 1900px) {

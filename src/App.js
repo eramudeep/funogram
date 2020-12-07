@@ -11,7 +11,8 @@ import {
 import UserForm from "./eshop/UserForm";
 import GuestLayout from "./eshop/comp/GuestLayout";
 import fire from '../src/app/utils/firebase';
-import UserLoginForm from './eshop/UserLoginForm'
+import UserLoginForm from './eshop/UserLoginForm';
+import Shop from "./eshop/Shop";
 //fire.auth().signOut()
 
 
@@ -35,11 +36,18 @@ const openRoutes = [
     component: UserLoginForm,
   },
   {
+    path: "/shop",
+    layout: GuestLayout,
+    exact: false,
+    component: Shop,
+  },
+  {
     path: "/",
     layout: GuestLayout,
     exact: false,
     component: Home,
   },
+ 
 ];
 const  App = () =>{
 

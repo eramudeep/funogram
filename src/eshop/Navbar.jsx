@@ -19,7 +19,7 @@ const Navbar = () =>{
                             <li class="active"><Link to={"/"} >Home</Link></li>
                             <li><a href="#">Women’s</a></li>
                             <li><a href="#">Men’s</a></li>
-                            <li><a href="./shop.html">Shop</a></li>
+                            <li><Link to={"/shop"} >Shop</Link></li>
                             <li><a href="#">Pages</a>
                                 <ul class="dropdown">
                                     <li><a href="./product-details.html">Product Details</a></li>
@@ -40,7 +40,7 @@ const Navbar = () =>{
                             <Link to={"/register"}>Register</Link>
                             {/* <a href="#">Register</a> */}
                         </div>
-                        <ul class="header__right__widget">
+                        {/* <ul class="header__right__widget">
                             <li><span class="icon_search search-switch"></span></li>
                             <li><a href="#"><span class="icon_heart_alt"></span>
                                 <div class="tip">2</div>
@@ -48,7 +48,7 @@ const Navbar = () =>{
                             <li><a href="#"><span class="icon_bag_alt"></span>
                                 <div class="tip">2</div>
                             </a></li>
-                        </ul>
+                        </ul> */}
                     </div>
                 </div>
             </div>

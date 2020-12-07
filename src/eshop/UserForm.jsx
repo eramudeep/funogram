@@ -1,6 +1,7 @@
 import React from 'react'
 import { Form } from 'react-bootstrap';
 import fire from '../app/utils/firebase' 
+import './css/style.css'
 
 
 
@@ -10,6 +11,7 @@ const onSubmit=async (e)=>{
    await fire.auth().createUserWithEmailAndPassword(e.target.Email.value , e.target.Password.value )
   .then((user) => {    
     console.log("from UserForm");
+    
 //inseert into database  
   })
   .catch((error) => {
@@ -21,7 +23,7 @@ const onSubmit=async (e)=>{
 }
 const UserForm = ()=> {
     return(
-        <div className="container">
+        <div className="container userForm">
             <div className="row">
           <div className="col-md-6 grid-margin stretch-card">
             <div className="card">
@@ -45,13 +47,7 @@ const UserForm = ()=> {
                     <label htmlFor="exampleInputConfirmPassword1">Confirm Password</label>
                     <Form.Control  name={"CPassword"}  type="password" className="form-control" id="exampleInputConfirmPassword1" placeholder="Password" />
                   </Form.Group>
-                  <div className="form-check">
-                    <label className="form-check-label text-muted">
-                      <input type="checkbox" className="form-check-input"/>
-                      <i className="input-helper"></i>
-                      Remember me
-                    </label>
-                  </div>
+                
                   <button type="submit" className="btn btn-primary mr-2">Submit</button>
                   <button className="btn btn-light">Cancel</button>
                 </form>
